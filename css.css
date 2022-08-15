@@ -231,9 +231,7 @@ color: #636f88;
     font-size: 14px;
     color: #192f60;
    }
-   footer button:hover{
-background-color:;
-   }
+   
   .id:hover{
     background-color: rgb(178, 230, 130);
     transition: all  ease-in-out 0.5s;
@@ -262,14 +260,9 @@ background-color:;
    a:hover{
     color: rgb(238, 237, 160);
    }
-   #button:hover{
-    background-color:#8c96ab;
-   }
 
 body{
     height: 810px;
 }
 
-   button li{
-    transition: all 500ms ease;
-   }
+   
