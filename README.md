@@ -8,4 +8,4 @@ Hello,
  
  
 Step1 : Copy paste the as it is on your local Machine 
-Step2: Place the BreakFast.Jpg into your machine copy the location of image paste in the 
+Step2: Place the BreakFast.Jpg into your machine copy the location of image paste in the line 89, 102 code lines it works fine.
