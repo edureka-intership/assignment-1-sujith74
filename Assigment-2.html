@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+      
+      .masthead{
+        background-size: cover;
+        min-height:60vh;
+        position: relative;
+        color:rgb(255, 255, 255);
+        background-color:2px 2px 2px rgba(148, 106, 106, 0.5);
+        background-image: linear-gradient(to bottom,rgba(221, 182, 182, 0.425),rgb(95, 29, 29));
+      }  
+      
+
+      .tt{
+       
+  color: red;
+ display:inline;
+  text-align: center;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+        font-weight: 600;
+        
+      }
+           @media(max-width:754px)
+           {
+            .masthead{
+                min-height:40vh;
+            }
+           }
+           img{
+            float:left;
+
+           }
+           
+           
+           .balu{
+            text-align: center;
+            position: relative;
+            
+            
+overflow: hidden;
+padding-top: 20px;
+           }
+   .restaurantsinput {
+  height: 40px;
+  width: 310px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  float: left;
+  padding-left: 30px;
+}
+.creat-acc{
+  border: 1px ridge white;
+  
+  
+
+}
+
+           @media only screen and (max-width: 600px) {
+  .restaurantsinput {
+    height: 40px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+  }
+}
+@media(max-width:600px){
+.restaurant{
+  font-size: large;
+}
+
+}
+           
+        </style>
+</head>
+<body>
+     <div class="masthead" style= "background-image:url('file:///C:/Users/Mittu/AppData/Local/Temp/Temp2_2_t82_88a0x6p%20(6).zip/2.%20Bootstrap%20-%20Assignment/Images/homepageimg.png');">
+<div class="row mb-3">
+  <div class="col-7"></div>
+  <div class="col-2 text-end my-2 d-none d-sm-block">login</div>
+<div class="col-2 btn text-light text-start creat-acc d-none d-sm-block">Create an account</div>
+
+<div class="col-1"></div>
+</div>
+   
+<div class="row ">
+  
+<div class="col text-center ">
+    <div class=" h1  mb-3  tt my-3  px-4 py-2">e!</div>
+</div></div>
+
+    <div class=" h3 op  my-3 text-center restaurant">Find the best restaurants, cafes, and bars</div>
+      
+        
+          <div class="row">
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3"></div>
+      <div class=" col-3 col-xs-9 col-sm-3 col-md-4 col-lg-3 text-sm-center text-end g-3">
+        <select class="form-select   m-0" aria-label="Default select example">
+            <option selected>Please select a location</option>
+            <option value="1">Telangana</option>
+            <option value="2">Tamil nadu</option>
+            <option value="3">Andhra pradesh</option>
+            <option value="4">Bangaluru</option>
+          </select>
+        </div>
+        <div class=" col-5 col-xs-9 col-sm-9 col-md-3 col-lg-4   input-group w-25 mt-3"  style="user-select: auto; height: 40px;">
+          <span class="input-group-text"placeholder="search here" id="inputGroup-sizing-default" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" placeholder="search here" width="20" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/ placeholder="search here">
+          </svg></span>
+          <input type="text" class="form-control" placeholder="search for restaurants" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" style="user-select: auto; height: 40px;">
+        </div>
+        <div class="col-3 col-xs-12 col-sm-1 col-md-2 col-lg-2"></div></div>
+      </div>
+  
+     <section class="m-2">
+        <div class="container">
+            <div class="h3">Quik searches</div>
+            <p class="lead">Discover websites by type of meal</p>
+            
+            
+            
+            <div class="">
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+                  <div class="col-sm-6 ">
+                    <div class="card row m-2">
+                        <div class="card-body p-0">
+                            <div class="col-">
+                            <img src="./images/breakfast.jpg" class="me-3 float-sm-start" alt="" width="50%" height="180px"></div>
+                            <div class="col-">
+                            <div class="card-title h5">BreakFast</div></div>
+                            <div class="m-2" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, reprehenderit.</div>
+
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 ">
+                    <div class="card row m-2">
+                        <div class="card-body p-0 text-shadow-0.3">
+                            <div class="col ">
+                            <img src="./images/dinner.png" class="me-3 float-sm-start" alt="" width="50%" height="170px"></div>
+                            <div class="col">
+                            <div class="card-title p- h4">BreakFast</div></div>
+                            <div class="m-2 card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, reprehenderit.</div>
+
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 ">
+                    <div class="card row m-2">
+                        <div class="card-body p-0">
+                            <div class="col ">
+                            <img src="./images/nightlife.png" class="me-3 float-sm-start" alt="" width="50%" height="170px"></div>
+                            <div class="col">
+                            <div class="card-title  h5">BreakFast</div></div>
+                            <div class="m-2 card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, reprehenderit.</div>
+
+                        </div>
+                    </div>
+                  </div>
+                  <div class=" col-sm-6 ">
+                    <div class="card row m-2">
+                        <div class="card-body p-0">
+                            <div class="col ">
+                            <img src="./images/drinks.png" class="me-3 float-sm-start" alt="" width="50%" height="150px";></div>
+                            <div class="col">
+                            <div class="card-title  h5">BreakFast</div></div>
+                            <div class="m-2 card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, reprehenderit.</div>
+
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class=" col-sm-6 ">
+                    <div class="card row m-2">
+                        <div class="card-body p-0">
+                            <div class="col ">
+                            <img src="./images/food.jpg" class="me-3 float-sm-start" alt="" width="50%" height="170px";></div>
+                            <div class="col">
+                            <div class="card-title  h5">BreakFast</div></div>
+                            <div class="m-2" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, reprehenderit.</div>
+
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 ">
+                    <div class="card row m-2">
+                        <div class="card-body p-0">
+                            <div class="col ">
+                            <img src="./images/lunch.jpg" class="me-3 float-sm-start" alt="" width="50%" height="170px";></div>
+                            <div class="col">
+                            <div class="card-title  h5">BreakFast</div></div>
+                            <div class="m-2 card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, reprehenderit.</div>
+
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+        
+     </section>
+
+</body>
+</html>
